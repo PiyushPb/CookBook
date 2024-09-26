@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.recipeContainer {
+  @apply w-full p-5 bg-white rounded-xl shadow-lg;
+}
+
+.primaryList {
+  li::marker {
+    @apply text-primary;
+  }
+}
