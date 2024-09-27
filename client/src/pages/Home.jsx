@@ -5,7 +5,7 @@ import MostPopularRecipies from "../components/home/MostPopularRecipies";
 
 const Home = () => {
   return (
-    <main>
+    <main className="p-5">
       <Hero />
       <RecipiesFromConnection />
       <MostPopularRecipies />

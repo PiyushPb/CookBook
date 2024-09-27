@@ -36,7 +36,7 @@ const Dashboard = () => {
       {/* Main content */}
       <main className="flex-grow overflow-auto md:ml-0">
         <SecondaryNavbar />
-        <div className="p-5">
+        <div>
           <Outlet />
         </div>
       </main>

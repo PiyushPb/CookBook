@@ -7,7 +7,7 @@ const AddRecipe = () => {
   const [activeForm, setActiveForm] = useState("AddImageForm");
 
   return (
-    <div className="max-w-[900px] mx-auto">
+    <div className="max-w-[900px] mx-auto p-5">
       {activeForm === "AddImageForm" && (
         <AddImageForm setActiveForm={setActiveForm} />
       )}

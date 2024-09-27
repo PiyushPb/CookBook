@@ -6,6 +6,7 @@ import Signup from "./pages/auth/Signup";
 import Dashboard from "./layout/Dashboard";
 import Recipie from "./pages/Recipie";
 import AddRecipe from "./pages/AddRecipe";
+import ProfilePage from "./pages/ProfilePage";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Dashboard />}>
             <Route index element={<Home />} />
-            <Route path="/addRecipe" element={<AddRecipe />} />
+            <Route exact path="/addRecipe" element={<AddRecipe />} />
+            <Route path="/:username" element={<ProfilePage />} />
           </Route>
           <Route path="/recipe/:recipeId" element={<Recipie />} />
           <Route path="/login" element={<Login />} />
