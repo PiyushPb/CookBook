@@ -18,7 +18,7 @@ import Logo from "./Logo";
 const menuItems = [
   { name: "Home", icon: <MdHome />, link: "/" },
   { name: "Category", icon: <BiCategory />, link: "/category" },
-  { name: "Add New Recipe", icon: <RiAddBoxLine />, link: "#" },
+  { name: "Add New Recipe", icon: <RiAddBoxLine />, link: "/addRecipe" },
   { name: "Profile", icon: <MdPeople />, link: "#" },
   { name: "Settings", icon: <IoSettingsOutline />, link: "#" },
 ];
